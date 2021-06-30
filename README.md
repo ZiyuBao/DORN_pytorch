@@ -1,6 +1,6 @@
 # DORN
 ### Update
-The entire codebase has been updated, and some layers and loss functions have been reimplemented to make it running fast and using less memory. This respository only contains the core code of DORN model. The whole code will be saved in [SupervisedDepthPrediction](https://github.com/dontLoveBugs/SupervisedDepthPrediction).
+The entire codebase has been updated, and some layers and loss functions have been reimplemented to make it running fast and using less memory. This respository only contains the core code of DORN model. The whole code will be saved in [SupervisedDepthPrediction](https://github.com/ZiyuBao/SupervisedDepthPrediction).
 
 
 ### Introduction
@@ -15,5 +15,5 @@ The resnet backbone of DORN, which has three conv in first conv layer, is differ
 Not Implemented.
  
 #### KITTI
-According to [the pull request](https://github.com/dontLoveBugs/DORN_pytorch/pull/19), we should move away from eigen split and switch to [kiiti depth benchmark](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion). More details, please see [SupervisedDepthPrediction](https://github.com/dontLoveBugs/SupervisedDepthPrediction).
+According to [the pull request](https://github.com/dontLoveBugs/DORN_pytorch/pull/19), we should move away from eigen split and switch to [kiiti depth benchmark](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion). More details, please see [SupervisedDepthPrediction](https://github.com/ZiyuBao/SupervisedDepthPrediction).
 
